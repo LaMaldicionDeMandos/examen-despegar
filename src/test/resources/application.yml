@@ -1,0 +1,9 @@
+spring:
+  profiles: test
+app:
+  api-host: "https://localhost"
+  api-key: ""
+  hotels:
+    max: 1000
+    limit: 200
+    partition-size: 10

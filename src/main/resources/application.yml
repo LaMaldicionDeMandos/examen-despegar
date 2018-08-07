@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hdash
+app:
+  api-host: "https://api.despegar.com/v3"
+  api-key: ${API_KEY}
+  hotels:
+    max: 1000
+    limit: 200
+    partition-size: 10
+
+#Setting the logging levels for the service
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.thoughtmechanix: DEBUG
